@@ -1,0 +1,22 @@
+.transactionHistory {
+  border-collapse: collapse;
+  margin: 0 auto;
+  border: 1px solid rgba(0, 52, 65, 0.1);
+  margin-bottom: 100px;
+}
+
+.transactionHistory td,
+.transactionHistory th {
+  border: 1px solid rgb(0, 104, 104);
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.transactionHistory th {
+  background-color: rgba(3, 185, 185, 0.281);
+}
+
+.transactionHistory tr:nth-child(2n) {
+  background-color: rgba(0, 98, 128, 0.064);
+}
