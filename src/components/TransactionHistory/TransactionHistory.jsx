@@ -15,7 +15,6 @@ const TransactionHistory = ({ items = [] }) => {
       <th>Currency</th>
     </tr>
   </thead>
-
   <tbody>
         {bodyItem}
   </tbody>
